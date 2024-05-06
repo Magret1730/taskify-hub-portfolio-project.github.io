@@ -2,3 +2,28 @@
 ---
 
 @import "{{ site.theme }}";
+
+/* Custom CSS styles*/
+
+/* For example: */
+.page-header {
+  background-color:rgb(245, 233, 221);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.project-tagline {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.site-footer {
+  background-color: rgb(245, 233, 221);
+  padding: 20px;
+  margin-top: 20px;
+}
