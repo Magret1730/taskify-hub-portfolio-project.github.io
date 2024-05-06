@@ -1,0 +1,6 @@
+title: Minimal theme for taskify hub application.
+logo: /assets/img/logo.png
+description: Minimal is the theme used for taskify hub application.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
