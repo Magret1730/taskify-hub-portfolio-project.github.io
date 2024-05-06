@@ -15,3 +15,35 @@ body {
   padding: 50px 0;
   text-align: center;
 }
+
+.custom-bg {
+    background-color: rgb(140, 110, 74) !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.custom-bg:hover {
+    background-color: rgb(120, 90, 54) !important;
+}
+
+.custom-text {
+    color: rgb(140, 110, 74) !important;
+}
+
+.custom-text:hover {
+    color: rgb(110, 90, 54) !important;
+}
+
+.custom-textt {
+    color: rgb(140, 110, 74) !important;
+}
+
+.bg {
+    background-color: rgb(245, 233, 221) !important;
+}
+
+.pig {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    justify-content: center !important;
+}
