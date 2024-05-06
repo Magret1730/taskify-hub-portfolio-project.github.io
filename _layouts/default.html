@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
+    <meta name="theme-color" content="rgb(245, 233, 221)">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
@@ -16,8 +16,8 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h1 class="project-name">Taskify Hub</h1>
+<!--       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
       <h2 class="project-tagline">About the Project:</h2>
       <p>Welcome to my Portfolio Project! Here, I showcase my skills and expertise as a developer through a carefully crafted portfolio. Whether you're a potential employer, collaborator, or simply curious about my work, I invite you to explore this page and learn more about what I have to offer.</p>
   	  <h2 class="project-tagline">Project Highlights:</h2>
@@ -26,7 +26,8 @@
         <li>Skills & Technologies: Discover the technologies and programming languages I specialize in, as well as my proficiency level in each area.</li>
         <li>Contact Information: Interested in working together or learning more about my projects? Feel free to reach out to me via email or connect with me on LinkedIn.</li>
       </ul>
-      <!--       {% if site.github.is_project_page %}
+      <!--       {{ page.title | default: site.title | default: site.github.repository_name }}
+      {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
       {% if site.show_downloads %}
