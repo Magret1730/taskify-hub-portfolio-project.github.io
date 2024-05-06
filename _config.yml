@@ -1,6 +1,5 @@
-title: Cayman theme for taskify hub application.
-logo: /assets/img/logo.png
-description: Cayman is the theme used for taskify hub application.
+title: Cayman theme
+description: Cayman is a clean, responsive theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
