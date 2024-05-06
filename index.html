@@ -8,53 +8,129 @@
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid custom-bg">
-    <a class="navbar-brand" href="#">Taskify Hub</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<div class="jumbotron">
-  <h1 class="display-4">Welcome to Taskify Hub!</h1>
-  <p class="lead">Your destination for task management and supercharging your productivity</p>
-  <hr class="my-4">
-  <p>Start managing your tasks efficiently today.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a>
-</div>
-<div class="features">
-  <div class="container">
-    <h2>Key Features</h2>
+    <nav class="navbar navbar-expand-lg custom-bg">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link nav_text fs-3" aria-current="page" href="#">Taskify Hub</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link nav_text fs-4" href="#about-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_text fs-4" href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="row">
-      <div class="col-md-4">
-        <h3>Project Management</h3>
-        <p>Organize your tasks, deadlines, and team members with ease.</p>
-      </div>
-      <div class="col-md-4">
-        <h3>Collaboration Tools</h3>
-        <p>Facilitate seamless communication and collaboration among team members.</p>
-      </div>
-      <div class="col-md-4">
-        <h3>Intuitive Interface</h3>
-        <p>User-friendly interface designed for simplicity and efficiency.</p>
+      <div class="col-md-12 text-center">
+        <h1 class="display-4">Welcome to Taskify Hub!</h1>
+        <p class="lead mb-0">Your destination for task management and supercharging your productivity</p>
+        <p class="lead">Start managing your tasks efficiently today.</p>
+        <a class="btn btn-lg custom-bg" href="http://taskifyhub.pythonanywhere.com/" role="button" target="_blank">Get Started</a>
       </div>
     </div>
-  </div>
-</div>
+    <div class="features">
+      <div class="container">
+        <h1>Key Features</h1>
+        <hr class="my-4 mt-0">
+        <div class="container-fluid">
+          <h3 class="p-2">Task Creation</h3>
+            <div class="d-flex align-items-center">
+              <div class="p-2">
+                <p class="big-text">
+                  Quickly add new tasks to your list, including title, description, and due date.
+                  This feature allows you to stay organized and efficiently manage your tasks, ensuring that nothing falls through the cracks.
+                </p>
+              </div>
+              <div class="p-2 flex-grow-1">
+                <img src="images/add_task.png" alt="Add task image" class="img-fluid">
+              </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+          <h3>Task Completion Tracking</h3>
+          <div class="d-flex align-items-center">
+            <div class="p-2">
+              <div class="flex-column">
+                <img src="images/uncompleted.png" alt="Uncompleted image" class="img-fluid">
+                <img src="images/completed.png" alt="Completed image" class="img-fluid">
+              </div>
+            </div>
+            <div class="p-2">
+              <p class="big-text">
+                Mark tasks as completed to track your progress and stay organized in managing your tasks.
+                This feature allows you to visually see your accomplishments, prioritize your workload effectively,
+                and maintain a clear overview of your tasks. By marking tasks as completed, you can focus on
+                what's next and ensure nothing important is overlooked.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid mt-5">
+          <h3 class="p-2">Set Due Dates</h3>
+          <div class="d-flex align-items-center">
+            <div class="p-2">
+              <p class="big-text">
+                Assign due dates to your tasks to prioritize and manage your workload effectively.
+                This feature ensures that you stay on track with your deadlines, helps you focus on
+                urgent tasks, and prevents procrastination. By setting due dates, you can better
+                organize your time and ensure that important tasks are completed on time.
+              </p>
+            </div>
+            <div class="p-2 flex-grow-1">
+              <img src="images/full_due_date.png" alt="Add task image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about-section" class="container about-section text-center">
+      <h2>About Taskify Hub</h2>
+      <hr class="my-4 mt-0 mb-0">
+      <p class="p-2 mb-0 mt-0 big-text">We are a team of passionate developers dedicated to creating user-friendly and efficient tools for productivity.</p>
+      <p class="p-2 mt-0 mb-0 big-text">Our mission is to simplify task management and help users stay organized in their daily lives.
+        With our app, you can easily create, organize, and prioritize your tasks, ensuring that nothing falls
+        through the cracks.</p>
+    </div>
+    <div id="developer-section" class="container developer-section text-center mt-5">
+      <h2>Meet the Developer</h2>
+      <hr class="my-4 mt-0">
+      <div class="big-text">
+        <p class="lead mb-0">Hi there! I'm Oyedele Abiodun Magret, a passionate software developer with a background in ALX Africa Software Development. My
+          journey in software development began with my enrollment in the ALX Africa Software Development program, where I
+          gained a solid foundation in full-stack web development, including HTML, CSS, JavaScript, Python, and more. Throughout
+          the foundation program, I worked on various projects, honing my skills in problem-solving, collaboration, and project management.
+          This project you see here is the culmination of my efforts during the foundation program of ALX Africa program. It represents my
+          technical skills and passion for building meaningful solutions. As my foundation project, it
+          showcases my ability to create user-friendly and efficient tools for productivity. With my foundation project
+          completed, I am excited to continue my journey in the specialization program as a software developer. I also seek opportunities to contribute to
+          innovative projects and make a positive impact in the tech community. Whether it's building cutting-edge applications,
+          collaborating with talented teams, or exploring new technologies, I am committed to continuous learning and growth in
+          this dynamic field. Thank you for visiting my foundation portfolio and exploring my work. Feel free to reach out if you have any
+          questions or would like to connect!</p>
+        <h4 class="mt-2 mb-0">Connect with Me:
+          <a role="button" target="_blank" href="https://github.com/Magret1730"><img class="img_size" src="images/github.webp" alt="github icon"></a>
+          <a role="button" target="_blank" href="https://linkedin.com/in/oyedele-abiodun/"><img class="img_size" src="images/LinkedIn.png" alt="LinkedIn icon"></a>
+          <a role="button" target="_blank" href="https://twitter.com/OyedeleMagret"><img class="img_size" src="images/twitter.png" alt="twitter icon"></a>
+        </h4>
+      </div>
+    </div>
+    <div id="contact-section" class="container contact-section text-center mt-5">
+      <h2>Contact Taskify Hub</h2>
+      <hr class="my-4 mt-0 mb-0">
+      <p class="p-1 big-text">Taskify Hub management can be contacted through this email
+        <strong><i>taskifyhubproject@gmail.com</i></strong>.</p>
+    </div>
+    <footer class="container-fluid">
+      <p class="text-center mt-3">&copy; Oyedele Abiodun Magret 2024</p>
+    </footer>
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
