@@ -7,23 +7,23 @@
 
 /* For example: */
 .page-header {
-  background-color:rgb(245, 233, 221);
-  padding: 20px;
-  margin-bottom: 20px;
+  background-color:rgb(245, 233, 221) !important;
+  padding: 20px !important;
+  margin-bottom: 20px !important;
 }
 
 .project-name {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 28px !important;
+  font-weight: bold !important;
 }
 
 .project-tagline {
-  font-size: 18px;
-  font-weight: normal;
+  font-size: 18px !important;
+  font-weight: normal !important;
 }
 
 .site-footer {
-  background-color: rgb(245, 233, 221);
-  padding: 20px;
-  margin-top: 20px;
+  background-color: rgb(245, 233, 221) !important;
+  padding: 20px !important;
+  margin-top: 20px !important;
 }
