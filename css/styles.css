@@ -1,17 +1,17 @@
 /* Custom CSS styles */
 body {
     background-color: rgb(245, 233, 221) !important;
+    color: rgb(110, 90, 54);
 }
 
 .jumbotron {
-  background-color: #007bff;
-  color: #fff;
+  background-color: rgb(245, 233, 221) !important;
   padding: 100px 0;
   text-align: center;
 }
 
 .features {
-  background-color: #f8f9fa;
+  background-color: rgb(245, 233, 221) !important;
   padding: 50px 0;
   text-align: center;
 }
