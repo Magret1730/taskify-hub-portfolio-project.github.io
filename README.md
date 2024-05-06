@@ -30,6 +30,7 @@ For inquiries or feedback about Taskify Hub, you can reach out to us via email a
 ## Getting Started
 
 To access Taskify Hub and start managing your tasks efficiently, visit [Taskify Hub](http://taskifyhub.pythonanywhere.com/).
+To view the Landing Page, visit [Taskify Hub Landing Page](https://magret1730.github.io/taskify-hub-portfolio-project.github.io/)
 
 
 ## Contribution
